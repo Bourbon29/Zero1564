@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fisika Radiologi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 15px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin: 5px 0 0;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card h2 {
+      font-size: 1.5em;
+      margin: 15px;
+    }
+    .card p {
+      font-size: 1em;
+      margin: 0 15px 15px;
+    }
+    .card a {
+      display: block;
+      text-align: center;
+      background: #4caf50;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      margin: 15px;
+      border-radius: 5px;
+      font-size: 1em;
+      transition: background 0.3s;
+    }
+    .card a:hover {
+      background: #45a049;
+    }
+    footer {
+      background: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 10px 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fisika Radiologi</h1>
+    <p>Mempelajari Ilmu Fisika di Dunia Radiologi</p>
+  </header>
+
+  <div class="content">
+    <div class="card">
+      <img src="img/radiodiagnostik.jpg" alt="Fisika Radiodiagnostik">
+      <h2>Fisika Radiodiagnostik dan Intervensi</h2>
+      <p>Fisika Radiodiagnostik membahas prinsip fisika dalam pencitraan radiologi seperti CT scan, MRI, dan radiografi digital.</p>
+      <a href="radiodiagnostik.html">Baca Selengkapnya</a>
+    </div>
+
+    <div class="card">
+      <img src="img/radiasi.jpg" alt="Fisika Radiasi">
+      <h2>Fisika Radiasi</h2>
+      <p>Fisika Radiasi membahas interaksi radiasi pengion dengan materi, perlindungan radiasi, dan aplikasinya dalam kedokteran.</p>
+      <a href="radiasi.html">Baca Selengkapnya</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Fisika Radiologi | Semua Hak Dilindungi</p>
+  </footer>
+</body>
+</html>
